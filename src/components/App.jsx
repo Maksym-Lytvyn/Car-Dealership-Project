@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import { Home } from "pages/Home";
-import { Catalog } from "pages/Catalog";
-import { Favorites } from "pages/Favorites";
+import Home from "pages/Home";
+import Catalog from "pages/Catalog";
+import Favorites from "pages/Favorites";
 
 
 export const App = () => {
