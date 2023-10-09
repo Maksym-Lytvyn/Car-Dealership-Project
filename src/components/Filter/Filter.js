@@ -7,7 +7,6 @@ import { SelectInput } from "components/Select/Select";
 import { transformSelectData } from "tools";
 import {
   InputMileageFrom,
-  InputMileageText,
   InputMileageTo,
   InputPriceWrap,
   SelectWrap,
@@ -77,7 +76,7 @@ export const Filter = () => {
 
 
   return (
-    <div style={{paddingLeft: 15, paddingRight: 15, paddingTop: 50, maxWidth: 1200, paddingTop: 80, marginLeft: 'auto', marginRight: 'auto'}}>
+    <div style={{paddingLeft: 15, paddingRight: 15, maxWidth: 1200, paddingTop: 80, marginLeft: 'auto', marginRight: 'auto'}}>
       <form style={{display: 'flex', gap: 18, alignItems: 'center', justifyContent: 'center', flexWrap: 'nowrap', flexDirection: 'row'}} onSubmit={handleSubmitForm}>
         <SelectWrap>
           <label style={{display: 'block', marginBottom: 8, color: '#8A8A89', fontSize: 14, position: 'relative'}}>
