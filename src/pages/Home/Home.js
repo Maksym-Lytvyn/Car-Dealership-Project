@@ -1,7 +1,8 @@
-import { Link } from 'react-router-dom';
-import CarHomepage from '../assets/Car-Homepage.jpg';
+import { Link } from "react-router-dom";
+import CarHomepage from '../../assets/Car-Homepage.jpg';
 
 const Home = () => {
+
   return (
     <div
       style={{
@@ -18,8 +19,8 @@ const Home = () => {
         backgroundPosition: 'center',
       }}
     >
-      <h1 style={{ color: 'black', padding: '20px', textAlign: 'center'}}>Home</h1>
-      <Link to="/catalog">Move to catalog</Link>
+      <h1 style={{ color: '#0B44CD', padding: 20, textAlign: 'center'}}>Вже готові до замовлення?</h1>
+      <Link to="/catalog">Перейти до каталогу</Link>
     </div>
   );
 };
