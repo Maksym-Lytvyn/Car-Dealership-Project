@@ -1,13 +1,5 @@
 import styled from "@emotion/styled";
 
-export const Image = styled.img`
-  width: 100%;
-  height: 268px;
-  display: block;
-  object-fit: cover;
-  border-radius: 14px;
-`;
-
 
 export const iconStyles = {
   position: "absolute",
@@ -18,32 +10,10 @@ export const iconStyles = {
   cursor: "pointer",
 };
 
-export const TitleWrap = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 14px;
-  padding-bottom: 8px;
-`;
-
-export const Title = styled.h2`
-  font-weight: 500;
-  font-size: 14px;
-  color: var(--primary-text-color);
-`;
-
-export const Span = styled.span`
-  color: var(--accent-color);
-`;
-
-export const DetailsList = styled.ul`
-  display: flex;
-  flex-wrap: wrap;
-`;
 
 export const DetailsItem = styled.li`
   font-size: 12px;
-  color: var(--secondary-text-color);
+  color: rgba(18, 20, 23, 0.5);
   display: flex;
   align-items: center;
 
@@ -52,7 +22,7 @@ export const DetailsItem = styled.li`
     display: inline-block;
     width: 1px;
     height: 16px;
-    background-color: var(--lines-background-color);
+    background-color: rgba(18, 20, 23, 0.1);
     margin-left: 6px;
     margin-right: 6px;
   }
@@ -63,15 +33,15 @@ export const Button = styled.button`
     height: 44px;
 
     border-radius: 12px;
-    background-color: var(--accent-color);
-    color: var(--text-button-color);
+    background-color: #3470FF;
+    color: #FFFFFF;
     font-size: 14px;
     font-weight: 600;
     line-height: 1.43;
     cursor: pointer;
-    transition: background-color var(--transition);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
         &:hover,
         &:focus {
-        background-color: var(--hover-color);
+        background-color: #0B44CD;
 `;

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import CarHomepage from '../../assets/Car-Homepage.jpg';
+import CarHomepage from '../../images/themes/Car-Homepage.jpg';
 
 const Home = () => {
 

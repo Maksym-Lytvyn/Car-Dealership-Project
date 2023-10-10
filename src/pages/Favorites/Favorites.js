@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Helmet } from "react-helmet";
 import { getAllCars } from "redux/operations";
 import { selectFavoriteCars, selectFiltredFavoriteCars, selectIsFiltred } from "redux/selectors";
 import { CarsList } from "components/CarList";
@@ -21,9 +20,6 @@ const Favorites = () => {
 
     return (
         <main>
-            <Helmet>
-                <title>Favorites</title>
-            </Helmet>
             {favorites.length === 0
                 ? <NoFavorites />
                 : (<>

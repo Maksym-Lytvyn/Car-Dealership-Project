@@ -2,26 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Montserrat:wght@400;600&display=swap');
 
 :root {
-  --accent-color: #3470FF;
-  --hover-color: #0B44CD;
-
-  --primary-text-color: #121417;
-  --secondary-text-color: rgba(18, 20, 23, 0.5);
-  --text-conditions-color: #363535;
-  --text-filter-title-color: #8A8A89;
-  --text-filter-options-color: rgba(18, 20, 23, 0.2);
-  --text-button-color: #FFFFFF;
-
-  --input-color: rgba(247, 247, 251, 1);
-  --input-border-hover-color: #2684FF;
-  --input-placeholder-text-color: #000000;
-
-  --primary-background-color: #CDCDCD;
-  --secondary-background-color: #F7F7FB; 
-  --conditions-background-color: #F9F9F9;
-  --borders-color: rgba(18, 20, 23, 0.05);
-  --lines-background-color: rgba(18, 20, 23, 0.1);
-  --scroll-background-color: rgba(18, 20, 23, 0.05);
   --shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14),
     0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -36,10 +16,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;
   font-size: 14px;
-  background-color: var(--background-color);
-  color: var(--text-primary-color);
+  background-color: #FFFF;
   min-height: 100vh;
-  /* box-sizing: border-box; */
 }
 
 * {
@@ -90,7 +68,7 @@ a {
 body,
 button,
 a {
-  cursor: url('/src/images/icons/cursor-vector.svg'), auto;
+  cursor: url('/src/images/svgs/cursor.svg'), auto;
 
 }
 

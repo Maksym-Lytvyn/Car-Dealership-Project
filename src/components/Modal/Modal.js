@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import { selectCars } from "redux/selectors";
 import { verifyAge } from "tools";
 
-import { ReactComponent as CloseIcon } from '../../images/icons/close.svg';
+import { ReactComponent as CloseIcon } from '../../images/svgs/close.svg';
 import { DetailsItem, iconStyles } from './Modal.styled';
 
 const modalRoot = document.getElementById('modal-root');

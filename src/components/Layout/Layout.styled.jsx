@@ -1,38 +1,18 @@
 import styled from '@emotion/styled';
 import { NavLink } from "react-router-dom";
 
-export const Container = styled.div`
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;   
-  max-width: 1200px;
-`;
 
-export const Header = styled.header`
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: var(--lines-background-color);
-`;
 
-export const Nav = styled.nav`
-  display: flex;
-  align-items: center;
-  gap: 30px;
-`;
 
 export const Link = styled(NavLink)`
   padding-top: 24px;
   padding-bottom: 24px;
 
   text-decoration: none;
-  color: var(--primary-text-color);
-  font-size: 14px;
+  color: #121417;
   font-weight: 500;
   cursor: pointer;
-  @media screen and (min-width: 768px) {
-    font-size: 18px;
-  }
+  font-size: 18px;
 
   &:first-child {
     font-family: 'Montserrat', sans-serif;
@@ -47,10 +27,10 @@ export const Link = styled(NavLink)`
   }
 
   &:not(:first-child) {
-    transition: transform var(--transition);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &.active {
-      color: var(--accent-color);
+      color: #3470FF;
     }
 
     &:hover,
@@ -58,8 +38,4 @@ export const Link = styled(NavLink)`
       transform: scale(1.05);
     }
   }
-`;
-
-export const LogoAccent = styled.span`
-  color: var(--hover-color);
 `;

@@ -8,8 +8,6 @@ import { transformSelectData } from "tools";
 import {
   InputMileageFrom,
   InputMileageTo,
-  InputPriceWrap,
-  SelectWrap,
 } from "./Filter.styled";
 
 const makes = [
@@ -36,7 +34,7 @@ const makes = [
     "Chrysler",
     "Kia",
     "Land",
-    "Renault"
+    "Renault",
 ];
 const optionsBrand = transformSelectData(makes);
 
@@ -78,7 +76,7 @@ export const Filter = () => {
   return (
     <div style={{paddingLeft: 15, paddingRight: 15, maxWidth: 1200, paddingTop: 80, marginLeft: 'auto', marginRight: 'auto'}}>
       <form style={{display: 'flex', gap: 18, alignItems: 'center', justifyContent: 'center', flexWrap: 'nowrap', flexDirection: 'row'}} onSubmit={handleSubmitForm}>
-        <SelectWrap>
+        <div style={{display: 'flex', gap: 18}}>
           <label style={{display: 'block', marginBottom: 8, color: '#8A8A89', fontSize: 14, position: 'relative'}}>
             Марка машини
             <div style={{width: 250}}>
@@ -92,16 +90,16 @@ export const Filter = () => {
           </label>
           <label style={{display: 'block', marginBottom: 8, color: '#8A8A89', fontSize: 14, position: 'relative'}}>
             Ціна / годину
-            <InputPriceWrap>
+            <div style={{width: 125}}>
               <SelectInput
                 name={"price"}
                 options={optionsPrice}
                 refProp={selectPriceRef}
                 placeholder={"До $"}
               />
-            </InputPriceWrap>
+            </div>
           </label>
-        </SelectWrap>
+        </div>
         <div style={{display: 'flex', position: 'relative', width: 320}}>
           <label style={{display: 'block', marginBottom: 8, color: '#8A8A89', fontSize: 14, position: 'relative'}}>
             Пробіг / км

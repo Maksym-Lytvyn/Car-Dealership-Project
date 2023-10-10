@@ -6,53 +6,44 @@ const customStyles = {
         height: '48px',
         padding: '0',
         paddingLeft: '14px',
-        backgroundColor: 'var(--input-color)',
+        backgroundColor: 'rgba(247, 247, 251, 1)',
         borderRadius: '14px',
         borderColor: state.isSelected ? 'transparent' : 'transparent',
-        fontSize: '16px',
+        fontSize: '18px',
         fontWeight: '500',
         lineHeight: '1.1',
         '&:hover': {
-            borderColor: 'var(--input-border-hover-color)',
+            borderColor: '#2684FF',
         },
-        "@media screen and (min-width: 768px)": {
-        fontSize: '18px',
-    }
     }),
     option: (provided, state) => ({
         ...provided,
         borderRadius: '14px',
         paddingBottom: '8px',
-        backgroundColor: state.isSelected ? 'var(--accent-color)' : 'white',
-        color: state.isSelected ? 'white' : 'var(--text-filter-options-color)',
-        fontSize: '14px',
+        backgroundColor: state.isSelected ? '#3470FF' : 'white',
+        color: state.isSelected ? 'white' : 'rgba(18, 20, 23, 0.2)',
+        fontSize: '16px',
         fontWeight: '500',
         lineHeight: '1.25',
         cursor: 'pointer',
-        "@media screen and (min-width: 768px)": {
-            fontSize: '16px',
-        }
     }),
     dropdownIndicator: (provided, state) => ({
         ...provided,
-        color: 'var(--primary-text-color)',
+        color: '#121417',
         cursor: 'pointer',
         transform: state.isFocused ? 'rotate(180deg)' : null,
     }),
     indicatorSeparator: provided => ({
         ...provided,
-        backgroundColor:'var(--input-color)', 
+        backgroundColor:'rgba(247, 247, 251, 1)', 
     }),
     placeholder: provided => ({
         ...provided,
-        backgroundColor: 'var(--input-color)',
-        color: 'var(--primary-text-color)',
-        fontSize: '16px',
+        backgroundColor: 'rgba(247, 247, 251, 1)',
+        color: '#121417',
+        fontSize: '18px',
         fontWeight: '500',
         lineHeight: '1.11',
-        "@media screen and (min-width: 768px)": {
-            fontSize: '18px',
-        }
     }),
     menu: provided => ({
         ...provided,
@@ -66,7 +57,7 @@ const customStyles = {
             height: '130px',
         },
         '::-webkit-scrollbar-thumb': {
-            background: 'var(--scroll-background-color)',
+            background: 'rgba(18, 20, 23, 0.05)',
             borderRadius: '10px',
         },
     })

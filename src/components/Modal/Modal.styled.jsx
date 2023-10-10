@@ -1,30 +1,5 @@
 import styled from '@emotion/styled';
 
-export const ModalStyled = styled.div`
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    border-radius: 14px;
-    background-color: var(--text-button-color);
-    padding: 30px;
-    width: calc(100% - 20px);
-    max-height: calc(100% - 20px);
-    overflow: auto;
-
-    @media screen and (min-width: 480px) {
-        width: 450px;
-        padding: 32px;
-    }
-    
-    @media screen and (min-width: 768px) {
-        width: 541px;
-        padding: 34px;
-        max-height: 830px;
-    }
-`;
-
 export const iconStyles = {
     position: 'absolute',
     stroke: 'transparent',
@@ -38,7 +13,7 @@ export const iconStyles = {
 
 export const DetailsItem = styled.li`
     font-size: 12px;
-    color: var(--secondary-text-color);
+    color: rgba(18, 20, 23, 0.5);
     display: flex;
     align-items: center;
 
@@ -47,7 +22,7 @@ export const DetailsItem = styled.li`
         display: inline-block;
         width: 1px;
         height: 16px;
-        background-color: var(--lines-background-color);
+        background-color: rgba(18, 20, 23, 0.1);
         margin-left: 6px;
         margin-right: 6px;
     }

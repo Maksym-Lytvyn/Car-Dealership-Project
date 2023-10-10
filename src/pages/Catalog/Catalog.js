@@ -7,7 +7,6 @@ import { selectIsLoading, selectError, selectCars, selectFiltredCars, selectIsFi
 import { CarsList } from 'components/CarList';
 import { Filter } from 'components/Filter';
 import { Spinner } from 'components/Spinner';
-import { Button } from './Catalog.styled';
 import { NoFiltred } from 'components/NotFiltred';
 
 
@@ -57,7 +56,7 @@ const Catalog = () => {
             <CarsList cars={isFiltred ? filtredCars : cars} />
             {isFiltred && filtredCars?.length === 0 && <NoFiltred/>}
             {isBtnShown && !loading && !isFiltred &&
-                <Button onClick={handleLoadMoreClick}>Завантажити ще</Button>
+                <button style={{display: 'block', color: '#3470FF', fontSize: 16, fontWeight: 500, textDecoration: 'underline', marginRight: 'auto', marginLeft: 'auto', cursor: 'pointer', backgroundColor: 'transparent', marginBottom: 150}} onClick={handleLoadMoreClick}>Завантажити ще</button>
             }
             
         </main>
