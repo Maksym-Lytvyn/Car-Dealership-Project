@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/Car-Dealership-Project/static/css/main.3bead4a0.css",
-    "main.js": "/Car-Dealership-Project/static/js/main.1f7cc4a2.js",
+    "main.js": "/Car-Dealership-Project/static/js/main.f49a4dcc.js",
     "static/js/989.feaa1954.chunk.js": "/Car-Dealership-Project/static/js/989.feaa1954.chunk.js",
-    "static/js/720.3c86d687.chunk.js": "/Car-Dealership-Project/static/js/720.3c86d687.chunk.js",
-    "static/js/415.4daa2b3b.chunk.js": "/Car-Dealership-Project/static/js/415.4daa2b3b.chunk.js",
+    "static/js/720.e5d5ae55.chunk.js": "/Car-Dealership-Project/static/js/720.e5d5ae55.chunk.js",
+    "static/js/415.23391f9d.chunk.js": "/Car-Dealership-Project/static/js/415.23391f9d.chunk.js",
     "static/js/631.88404161.chunk.js": "/Car-Dealership-Project/static/js/631.88404161.chunk.js",
-    "static/js/899.a8717378.chunk.js": "/Car-Dealership-Project/static/js/899.a8717378.chunk.js",
+    "static/js/857.9a278ca3.chunk.js": "/Car-Dealership-Project/static/js/857.9a278ca3.chunk.js",
     "static/media/Car-Homepage.jpg": "/Car-Dealership-Project/static/media/Car-Homepage.b77575d3ae58be0b911c.jpg",
     "static/media/No_results_found.jpg": "/Car-Dealership-Project/static/media/No_results_found.38b8f67611ed25f02a9e.jpg",
     "static/media/cursor.svg": "/Car-Dealership-Project/static/media/cursor.1ef7ea0817cbad289fc2.svg",
@@ -15,15 +15,15 @@
     "static/media/favorite-active.svg": "/Car-Dealership-Project/static/media/favorite-active.3c6e87bb299c1cf5501de17c1dd20787.svg",
     "static/media/close.svg": "/Car-Dealership-Project/static/media/close.70f65c7e87a4e1e47d5b73074981fa46.svg",
     "main.3bead4a0.css.map": "/Car-Dealership-Project/static/css/main.3bead4a0.css.map",
-    "main.1f7cc4a2.js.map": "/Car-Dealership-Project/static/js/main.1f7cc4a2.js.map",
+    "main.f49a4dcc.js.map": "/Car-Dealership-Project/static/js/main.f49a4dcc.js.map",
     "989.feaa1954.chunk.js.map": "/Car-Dealership-Project/static/js/989.feaa1954.chunk.js.map",
-    "720.3c86d687.chunk.js.map": "/Car-Dealership-Project/static/js/720.3c86d687.chunk.js.map",
-    "415.4daa2b3b.chunk.js.map": "/Car-Dealership-Project/static/js/415.4daa2b3b.chunk.js.map",
+    "720.e5d5ae55.chunk.js.map": "/Car-Dealership-Project/static/js/720.e5d5ae55.chunk.js.map",
+    "415.23391f9d.chunk.js.map": "/Car-Dealership-Project/static/js/415.23391f9d.chunk.js.map",
     "631.88404161.chunk.js.map": "/Car-Dealership-Project/static/js/631.88404161.chunk.js.map",
-    "899.a8717378.chunk.js.map": "/Car-Dealership-Project/static/js/899.a8717378.chunk.js.map"
+    "857.9a278ca3.chunk.js.map": "/Car-Dealership-Project/static/js/857.9a278ca3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3bead4a0.css",
-    "static/js/main.1f7cc4a2.js"
+    "static/js/main.f49a4dcc.js"
   ]
 }
