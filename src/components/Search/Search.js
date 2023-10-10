@@ -40,7 +40,7 @@ const optionsPrice = Array.from({ length: 38 }, (_, index) => ({
   label: String((index + 3) * 10),
 }));
 
-export const Filter = () => {
+export const Search = () => {
   const dispatch = useDispatch();
   const selectBrandRef = useRef(null);
   const selectPriceRef = useRef(null);

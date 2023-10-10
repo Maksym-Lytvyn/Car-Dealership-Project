@@ -11,7 +11,7 @@ import {
   selectIsFiltred,
 } from 'redux/selectors';
 import { CarsList } from 'components/CarList';
-import { Filter } from 'components/Filter';
+import { Search } from 'components/Search';
 import { Spinner } from 'components/Spinner';
 import { NoFiltred } from 'components/NotFiltred';
 
@@ -60,7 +60,7 @@ const Catalog = () => {
           'Схоже, виникла помилка. Спробуйте інший запит'
         )}
       {loading && !error && <Spinner />}
-      <Filter />
+      <Search />
       <CarsList cars={isFiltred ? filtredCars : cars} />
       {isFiltred && filtredCars?.length === 0 && <NoFiltred />}
       {isBtnShown && !loading && !isFiltred && (

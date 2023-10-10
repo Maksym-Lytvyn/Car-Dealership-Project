@@ -255,7 +255,7 @@ export const Modal = ({ carId, onClose }) => {
             cursor: 'pointer',
           }}
         >
-          Rental car
+          Орендувати машину
         </a>
       </div>
     </div>,

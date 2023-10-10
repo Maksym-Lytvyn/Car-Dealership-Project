@@ -7,7 +7,7 @@ import {
   selectIsFiltred,
 } from 'redux/selectors';
 import { CarsList } from 'components/CarList';
-import { Filter } from 'components/Filter';
+import { Search } from 'components/Search';
 import { NoFavorites } from 'components/FavoritesNone';
 import { NoFiltred } from 'components/NotFiltred';
 
@@ -27,7 +27,7 @@ const Favorites = () => {
         <NoFavorites />
       ) : (
         <>
-          <Filter />
+          <Search />
           <CarsList cars={isFiltred ? filtredFavorites : favorites} />
           {isFiltred && filtredFavorites?.length === 0 && <NoFiltred />}
         </>
