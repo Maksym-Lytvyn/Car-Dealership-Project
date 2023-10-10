@@ -1,15 +1,13 @@
-import styled from "@emotion/styled";
-
+import styled from '@emotion/styled';
 
 export const iconStyles = {
-  position: "absolute",
-  stroke: "#3470FF",
-  fill: "transparent",
+  position: 'absolute',
+  stroke: '#3470FF',
+  fill: 'transparent',
   top: 14,
   right: 14,
-  cursor: "pointer",
+  cursor: 'pointer',
 };
-
 
 export const DetailsItem = styled.li`
   font-size: 12px;
@@ -18,7 +16,7 @@ export const DetailsItem = styled.li`
   align-items: center;
 
   &:not(:last-child)::after {
-    content: "";
+    content: '';
     display: inline-block;
     width: 1px;
     height: 16px;

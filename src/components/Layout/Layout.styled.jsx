@@ -1,8 +1,5 @@
 import styled from '@emotion/styled';
-import { NavLink } from "react-router-dom";
-
-
-
+import { NavLink } from 'react-router-dom';
 
 export const Link = styled(NavLink)`
   padding-top: 24px;
@@ -20,7 +17,7 @@ export const Link = styled(NavLink)`
     font-weight: 600;
     margin-right: 24px;
 
-  @media screen and (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       font-size: 24px;
       margin-right: 34px;
     }
@@ -30,7 +27,7 @@ export const Link = styled(NavLink)`
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &.active {
-      color: #3470FF;
+      color: #3470ff;
     }
 
     &:hover,
